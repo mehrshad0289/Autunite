@@ -137,9 +137,6 @@ function CheckNewContract({ canTransport, setCanTransport }) {
       setTransportLoading(false);
     }
   }
-
-
-
   return (
     <>
       <Dialog
