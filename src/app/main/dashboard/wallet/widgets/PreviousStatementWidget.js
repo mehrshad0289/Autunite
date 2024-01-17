@@ -16,7 +16,7 @@ function PreviousStatementWidget(props) {
     <Paper className="relative flex flex-col flex-auto p-24 pr-12 pb-12 rounded-2xl shadow overflow-hidden">
       <div className="flex items-center justify-between">
         <div className="flex flex-col">
-          <img src="assets/images/coins/busd.png"  className="w-48"/>
+          <img src="assets/images/coins/usdt.svg"  className="w-48"/>
           <CustomTitle>
             {name}
           </CustomTitle>
@@ -41,7 +41,7 @@ function PreviousStatementWidget(props) {
               {balance}
             </Typography>
             <Typography className='mt-8 text-green-600 font-medium text-sm'>
-              BUSD
+            USDT
             </Typography>
           </div>
         </div>

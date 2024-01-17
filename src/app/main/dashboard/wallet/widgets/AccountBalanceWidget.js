@@ -29,9 +29,9 @@ function AccountBalanceWidget(props) {
 
                 </div>
                 <div className='grid items-center mt-24 mr-8 text-center justify-center'>
-                    <img src="assets/images/coins/busd.png"  className="w-48"/>
+                    <img src="assets/images/coins/usdt.svg"  className="w-48"/>
                     <CustomTitle>
-                        {wallet.balance} BUSD
+                        {wallet.balance} USDT
                     </CustomTitle>
                 </div>
                 <div className='flex items-center mt-24 mr-8 text-center justify-center'>

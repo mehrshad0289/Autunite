@@ -17,7 +17,7 @@ export default function WalletConnectButton(){
   useEffect(() => {
      function addressShortenedString() {
       if(typeof address == 'string' ){
-        setAddressWallet(address.substring(0, 4) + '...' + address.substring(address.length - 4)) 
+        setAddressWallet(address.substring(0, 6) + '...' + address.substring(address.length - 5)) 
       }
     }
     addressShortenedString()
@@ -37,8 +37,7 @@ export default function WalletConnectButton(){
       onClick={button}
       disabled={isOpen}
     >
-      {isConnected? <>
-        Wallet Connected to {addressWallet && addressWallet}<CustomFontAwesomeIcon className="ml-8" color={'white'}
+      {isConnected? <>Connected to {addressWallet && addressWallet}<CustomFontAwesomeIcon className="ml-8" color={'white'}
                                                icon={faCheckCircle} />
       </> : "Connect Wallet"}
     </LoadingButton>

@@ -166,7 +166,7 @@ function CheckNewContract({ canTransport, setCanTransport }) {
               onClick={() => {
                 transportNft();
               }}
-              disabled={!showeTransport}
+              disabled={showeTransport}
             >
               <span>approve</span>
             </LoadingButton>
@@ -180,7 +180,7 @@ function CheckNewContract({ canTransport, setCanTransport }) {
               onClick={() => {
                 transport()
               }}
-              disabled={showeTransport}
+              disabled={!showeTransport}
             >
               <span>transport</span>
             </LoadingButton>

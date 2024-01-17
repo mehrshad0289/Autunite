@@ -1,9 +1,9 @@
 import { getAddress } from "viem";
 import { bsc, bscTestnet } from "wagmi/chains";
 
-// const chainId =56  /* Main Net */
+const chainId =56  /* Main Net */
 
-const chainId = 97; /* Test Net */
+// const chainId = 97; /* Test Net */
 
 let MinterAbi;
 let USDTAbi;
@@ -17,10 +17,10 @@ let transporterAddress;
 let providerAddress;
 let chainScanHeader;
 if (chainId == 56) {
-  MinterAddress = "0xAAAcAce371afdaE4A119bEB560b59cDFa5098721";
+  MinterAddress = "0xAA1AAaaF48ef7dbAba77F14d0e80dB80533e8B0e";
   chainName = [bsc];
   USDTAddress = "0x55d398326f99059fF775485246999027B3197955";
-  transporterAddress = '';
+  transporterAddress = '0xAAA53129334B5a56f74F7508903ee1630EdBeD0D';
   oldCollectionAddress = '0xAA2D28Df52cfc1b130205958BF9930C85B19fe95';
   providerAddress = 'https://bsc.publicnode.com'
   chainScanHeader = 'bscscan.com'
