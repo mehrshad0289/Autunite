@@ -13,7 +13,7 @@
         "@mui/base": "5.0.0-alpha.80",
         "@mui/icons-material": "5.6.2",
         "@mui/lab": "5.0.0-alpha.81",
-        "@mui/material": "5.7.0",
+        "@mui/material": "^5.15.15",
         "@mui/styles": "5.7.0",
         "@mui/system": "5.7.0",
         "@mui/utils": "5.7.0",
@@ -160,7 +160,7 @@
         "lint": "eslint"
     },
     "engines": {
-        "node": ">=14.0.0",
+       "node": "20.x",
         "npm": ">=7.0.0"
     },
     "browserslist": {
